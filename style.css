@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.dropZone {
+  width: 200px;
+  min-height: 300px;
+  border: 2px dashed #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.dropZone.hovered {
+  background-color: #e0f7fa;
+  border-color: #00acc1;
+}
+
+.dragItem {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: grab;
+  user-select: none;
+}
