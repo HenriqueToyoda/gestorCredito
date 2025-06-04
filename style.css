@@ -34,3 +34,32 @@ body {
   cursor: grab;
   user-select: none;
 }
+.buttons {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #008ba3;
+}
+
+#exportOutput {
+  margin-top: 20px;
+  background: #f0f0f0;
+  padding: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: pre-wrap;
+}

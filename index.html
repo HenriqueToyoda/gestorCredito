@@ -8,6 +8,12 @@
 <body>
   <h2>Arraste os itens entre as caixas</h2>
 
+  <div class="buttons">
+    <button onclick="saveState()">💾 Salvar</button>
+    <button onclick="resetState()">♻️ Resetar</button>
+    <button onclick="exportState()">📤 Exportar JSON</button>
+  </div>
+  
   <div class="container">
     <div class="dropZone" id="zone1">
 		<div class="dragItem" draggable="true">Pedido      </div>
@@ -40,7 +46,7 @@
       
     </div>
   </div>
-
+ <pre id="exportOutput"></pre>
   <script src="script.js"></script>
 </body>
 </html>
