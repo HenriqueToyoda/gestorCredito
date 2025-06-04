@@ -51,7 +51,7 @@ function initDefault() {
 'Data SF     ',
 'Hora SF     ',
 'Data/Hora SF'].forEach(text => zone1.appendChild(createItem(text)));
-  [].forEach(text => zone2.appendChild(createItem(text)));
+  [''].forEach(text => zone2.appendChild(createItem(text)));
 }
 
 document.querySelectorAll('.dropZone').forEach(zone => {
